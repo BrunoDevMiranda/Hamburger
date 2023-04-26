@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site de Venda de Hambúrgueres</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!--    <link rel="stylesheet" type="text/css" href="reset.css">-->
+
+</head>
+<body>
+<a href="#" id="login-link">Entrar</a>
+    <header>
+        <a class="logo" href="#"><img src="image/logoNOVA.png" alt="Emblema"></a>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carrinho</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+    </div>
+
+<main>
+    <section id="banner">
+        <h2>Promoção</h2>
+        <p>Compre um hambúrguer e ganhe uma batata frita grátis!</p>
+        <a href="#" class="button">Peça Agora</a>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="item">
+            <img src="image/burgue.png" id="burg1" alt="Hambúrguer">
+            <h3>Hambúrguer Tradicional</h3>
+            <p>Delicioso hambúrguer com carne bovina, queijo, alface, tomate e maionese.</p>
+            <span class="price">R$ 15,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+            <img src="image/hamburguer-artesanal.jpg" id="burg2" alt="Hambúrguer Vegetariano">
+            <h3>Hambúrguer Vegetariano</h3>
+            <p>Hambúrguer delicioso feito com grão-de-bico, alface, tomate e maionese.</p>
+            <span class="price">R$ 20,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="item">
+            <img src="image/batata.jpg" id="fritas" alt="Batata Frita">
+            <h3>Batata Frita</h3>
+            <p>Porção generosa de batata frita crocante.</p>
+            <span class="price">R$ 10,00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Site de Venda de Hambúrgueres &copy; 2023</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

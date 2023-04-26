@@ -1,0 +1,219 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: linear-gradient(white 30%, #a77c41);
+    margin: 0;
+}
+#login-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(96,74,26);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.logo {
+    margin-bottom: 30px;
+
+}
+
+.logo img {
+    width: 52%;
+
+
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav li {
+    /*display: inline;*/
+    margin: 0 0 0 10px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.nav a:hover {
+    color: #a77c41;
+}
+
+/* Estilos para o modal */
+.modal {
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    buttom: 0;
+    right: 0;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #a77c41;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+}
+
+.modal h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+
+
+
+/* Define um layout em grade para o menu */
+#menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo para cada item do menu */
+.item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para a imagem do item do menu */
+.item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o botão "Adicionar ao Carrinho" */
+.add-to-cart {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #900;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Define o tamanho máximo das imagens */
+
+/* Centraliza as imagens na tela */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#burg1{
+    width: 30%;
+}
+#burg2{
+    width: 30%;
+}
+#fritas{
+    width: 30%;
+}
+
+
+header h1
